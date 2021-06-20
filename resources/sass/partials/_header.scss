@@ -1,0 +1,25 @@
+header{
+    .section_nav_1{
+
+        display: flex;
+        background-color: blue;
+        color: wheat;
+
+        .white_space{
+            flex-grow: 1;
+        }
+        ul{
+            list-style: none;
+            display: flex;
+            font-size: 8px;
+            li{
+                a{
+                    color: wheat;
+                    text-decoration: none;
+                    margin:0  20px;
+                }
+            }
+
+        }
+    }
+}
