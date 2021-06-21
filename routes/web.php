@@ -31,5 +31,13 @@ use Illuminate\Support\Facades\Route;
 // Bonus: Create più pagine istituzionali che condividono lo stesso layout
 
 Route::get('/', function () {
-    return view('welcome');
+
+    $currentSeries = config("comics");
+
+    $datiView = [
+        "comics_List" => $currentSeries
+    ];
+
+    return view('welcome', $datiView);
 });
+

@@ -1,0 +1,100 @@
+.main_footer{
+    
+    color: white;
+    min-height: 200px;
+    width: 100%;
+    background-image: url("/images/footer-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;     
+    position: relative;
+    .section_footer{
+        width: 100%;
+        height: 100%;
+        
+            
+        img{
+            
+            position: absolute;
+            top: -50px;
+            right: 150px;
+            height: 367px;
+        }
+        
+        .footer_links{
+            display: flex;
+            width: 920px;
+            margin: auto;
+           
+            .footer_column{
+                h3{
+                    text-transform: uppercase;
+                    padding:5px 0;
+
+                }
+                ul{
+                    list-style: none;
+                    margin-top:5px;
+                    padding-right:10px ;
+                    li{
+                       
+                        a{
+                            color: grey;
+                            text-transform: capitalize;
+                            font-size: 10px;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }         
+        }
+        .footer_copyright{
+            margin: auto;
+            width: 920px;
+            padding: 10px 0;
+            color:gray;
+            font-size: 10px;
+            a{ 
+                color: blue; 
+            }
+        }
+        
+    }
+}
+.section_footer_end{
+    background-color: rgb(8, 8, 8);
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    .container_footer{
+        display: flex;
+        justify-content: space-between;
+        width: 920px;
+        align-items: center;
+        .social_footer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            h5{
+                color: blue;
+                text-transform: uppercase;
+                font-size:10px;
+                font-weight: 600;
+            }
+            
+            .social_img_footer_style{
+                display: flex;
+                align-items: center;
+                margin-left: 5px;
+                img{
+                    margin-left: 5px;
+                    height: 20px;
+                    width: 20px;
+                }
+            }
+        }
+       
+    }
+}

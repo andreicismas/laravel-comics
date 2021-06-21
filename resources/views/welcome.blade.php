@@ -8,14 +8,40 @@
      <!-- fontAwsome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <title> Welcome page comix </title>
+    <title>  @yield('')Welcome page comix </title>
   
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
 
 </head>
 <body>
      @include('layouts.homeHeader')
+     @include('layouts.comers')
      @include('layouts.homeMain')
+
+    <main class="">
+        <section class="section_1">
+            <div class="jumbotron_style">   
+                <img src="{{asset('images/jumbotron.jpg')}}" alt="e-book">
+            </div>   
+        </section>
+
+
+        <section class="section_2 max_container">
+             @yield('btn_style')
+        </section>
+
+        <section class="card_container">
+            @yield('card_section')
+        </section>
+
+        <section class="section_3 ">
+             @yield('commers')
+        </section>
+        
+    </main>
+
+
+     @include('layouts.footer')
      
 </body>
 </html>

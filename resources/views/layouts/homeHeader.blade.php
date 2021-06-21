@@ -1,7 +1,7 @@
 {{-- @extends('./welcome') --}}
 @section('title', 'ciao')
-<header>
-<nav>
+<header >
+<nav class="">
     <div class="section_nav_1">
         <div class="white_space">
         </div>
@@ -19,7 +19,7 @@
             </ul>
         </div>
     </div>
-    <div class="section_nav_2">
+    <div class="section_nav_2 max_container">
         <div class="logo_nav">
             <img src="{{ asset('images/dc-logo.png') }}" alt="DC-logo" >
         </div>
