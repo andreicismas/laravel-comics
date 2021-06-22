@@ -1,7 +1,3 @@
-     @include('layouts.homeHeader')
-     @include('layouts.comers')
-     @include('layouts.homeMain')
-     
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,7 +14,9 @@
 
 </head>
 <body>
-    
+     @include('partials.homeHeader')
+     @include('partials.comers')
+     @include('partials.homeMain')
 
     <main class="">
         <section class="section_1">
@@ -43,7 +41,7 @@
     </main>
 
 
-     @include('layouts.footer')
+     @include('partials.footer')
      
 </body>
 </html>
