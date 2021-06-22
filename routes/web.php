@@ -44,6 +44,7 @@ Route::get('/', function () {
 
 
 Route::get('/singlePage', function () {
+  
 
     return view('singlePage');
 })->name("pagina_singola");
