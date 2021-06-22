@@ -12,7 +12,7 @@
         @foreach($comics_List as $comic)
             <div class="card">
                 <div class="img_card">
-                    <img src="{{ $comic['thumb'] }}" alt="">
+                    <a href="{{ route('pagina_singola') }}"><img src="{{ $comic['thumb'] }}" alt=""></a>
                 </div>
                 <div class="title_card">
                     <h5>{{ $comic['series']}}</h5>

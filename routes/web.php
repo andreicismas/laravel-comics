@@ -41,3 +41,10 @@ Route::get('/', function () {
     return view('welcome', $datiView);
 });
 
+
+
+Route::get('/singlePage', function () {
+
+    return view('singlePage');
+})->name("pagina_singola");
+

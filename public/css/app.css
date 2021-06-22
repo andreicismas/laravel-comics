@@ -183,6 +183,8 @@ main .card_container .container_load_btn div a {
 
 main .section_3 {
   background-color: #0282F9;
+  position: relative;
+  z-index: 1;
 }
 
 main .section_3 .commers_container {
