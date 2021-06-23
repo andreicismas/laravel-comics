@@ -15,16 +15,15 @@
 </head>
 <body>
      @include('partials.homeHeader')
-     @include('partials.comers')
-
-    <main>
-    <div>
-    @yield('single_card')
-    </div>
     
-    <div>
-    @yield('comers')
-    </div>
+    <main>
+        <div>
+        @yield('single_card')
+        </div>
+        
+        <div>
+        @yield('comers')
+        </div>
     </main>
     
 

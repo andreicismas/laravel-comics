@@ -45,7 +45,12 @@ Route::get('/', function () {
 
 Route::get('/singlePage', function () {
   
+    $currentSeries = config("comics");
 
-    return view('singlePage');
+    $datiView = [
+        "comics_List" => $currentSeries
+    ];
+
+    return view('singlePage',$datiView);
 })->name("pagina_singola");
 

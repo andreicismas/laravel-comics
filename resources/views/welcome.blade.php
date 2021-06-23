@@ -15,8 +15,8 @@
 </head>
 <body>
      @include('partials.homeHeader')
-     @include('partials.comers')
      @include('partials.homeMain')
+     @include('partials.comers')
 
     <main class="">
         <section class="section_1">
