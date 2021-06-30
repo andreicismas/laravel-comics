@@ -9,10 +9,10 @@
 @section('card_section')
 
     <div class="container_card_style max_container">
-        @foreach($comics_List as $comic)
+        @foreach($comics_List as $key => $comic)
             <div class="card">
                 <div class="img_card">
-                    <a href="{{ route('pagina_singola') }}"><img src="{{ $comic['thumb'] }}" alt=""></a>
+                    <a href="{{ route('pagina_singola',['index'=> $key]) }}"><img src="{{ $comic['thumb'] }}" alt=""></a>
 
                     
                 </div>

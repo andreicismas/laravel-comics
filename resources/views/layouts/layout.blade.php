@@ -17,6 +17,13 @@
      @include('partials.homeHeader')
     
     <main>
+         <section class="section_1">
+            <div class="jumbotron_style">   
+                <img src="{{asset('images/jumbotron.jpg')}}" alt="e-book">
+            </div>   
+        </section>
+        
+
         <div>
         @yield('single_card')
         </div>

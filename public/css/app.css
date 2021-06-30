@@ -325,3 +325,95 @@ main .section_3 .commers_container .commers_style div h5 {
   width: 20px;
 }
 
+.blue_div {
+  height: 60px;
+  background-color: #0281F7;
+}
+
+.min_container {
+  padding: 40px 0;
+  width: 700px;
+  margin: auto;
+}
+
+.min_container .thumb_style {
+  position: absolute;
+  bottom: 230px;
+}
+
+.min_container .thumb_style img {
+  max-height: 200px;
+}
+
+.min_container .title_style {
+  display: inline-block;
+  color: blue;
+}
+
+.min_container .info_card {
+  display: flex;
+  align-items: center;
+}
+
+.min_container .info_card .price_style {
+  display: flex;
+  flex-direction: column;
+}
+
+.min_container .info_card .price_style .price {
+  border-bottom: solid black 1px;
+  padding: 10px;
+  display: flex;
+  background-color: #55BA59;
+}
+
+.min_container .info_card .price_style .price h4 {
+  padding: 0 15px;
+}
+
+.min_container .info_card .price_style .price h4 span {
+  color: white;
+}
+
+.min_container .info_card .price_style .price .select_style {
+  background-color: #55BA59;
+  border: none;
+  color: white;
+  margin-left: 80px;
+  border-left: solid black 1px;
+}
+
+.min_container .info_card .price_style .description_style {
+  padding: 10px 0;
+  color: grey;
+}
+
+.min_container .info_card .grow_div {
+  flex-grow: 1;
+}
+
+.min_container .info_card .container_adv_style {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.min_container .info_card .container_adv_style .img_adv {
+  width: 259px;
+  height: 100%;
+  margin-left: 10px;
+}
+
+.min_container .info_card .container_adv_style .img_adv img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.min_container .info_card .container_adv_style h4 {
+  text-align: end;
+  text-transform: uppercase;
+  color: grey;
+}
+

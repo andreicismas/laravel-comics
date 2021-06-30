@@ -43,14 +43,13 @@ Route::get('/', function () {
 
 
 
-Route::get('/singlePage', function () {
+Route::get('/singlePage/{index}', function ($index) {
   
     $currentSeries = config("comics");
 
-    $datiView = [
-        "comics_List" => $currentSeries
-    ];
 
-    return view('singlePage',$datiView);
+    return view('singlePage',[
+        "comicSingle" => $currentSeries[$index]
+    ]);
 })->name("pagina_singola");
 
